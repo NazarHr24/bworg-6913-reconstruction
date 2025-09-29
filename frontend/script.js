@@ -1455,7 +1455,7 @@ if(toscroll) document.getElementById("logcontent").scrollTop = document.getEleme
             ],
             [
                 { type: "text", text: "How do you get a girlfriend?" },
-                { type: "text", text: "You rape one" },
+                { type: "text", text: "You make love, not war" },
                 { type: "text", text: "I'm a comedic genius, I know." },
             ],
         ],
