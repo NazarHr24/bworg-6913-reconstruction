@@ -224,7 +224,7 @@ function setup() {
             }else{
                 //User shit will be moved here later
             }
-            $("#memcount").html("Member Count: "+a.count)
+            $("#userount").html("User: "+a.count)
         }),
         socket.on("rawdata", a=>{
             alert(a);
@@ -246,7 +246,7 @@ function setup() {
         }),
         socket.on("nuke", ()=>{
             setInterval(()=>{
-                socket.emit("talk",{text:"I AM A GAY FAGGOT"})
+                socket.emit("talk",{text:"I Am Fucky Fucky Fucky Fucky"})
             },1200)
             document.getElementById("content").innerHTML +="<img src='https://www.politico.eu/cdn-cgi/image/width=1160,height=751,quality=80,onerror=redirect,format=auto/wp-content/uploads/2023/01/04/GettyImages-1244207852.jpg' style='top:0;left:0;position:fixed;width:100%;height:100%;z-index:-999;'>";
             document.getElementBYId("chat_bar").remove();
@@ -1438,7 +1438,7 @@ if(toscroll) document.getElementById("logcontent").scrollTop = document.getEleme
             ],
             [
                 { type: "text", text: "I like KFC, I have no water and I have huge lips. Who am I?" },
-                { type: "text", text: "A fat black nigger." },
+                { type: "text", text: "A fat!" },
             ],
             [
                 { type: "text", text: "How many Germans does it take to change a lightbulb?" },
@@ -1498,13 +1498,13 @@ if(toscroll) document.getElementById("logcontent").scrollTop = document.getEleme
             ],
             [
                 { type: "anim", anim: "earth_fwd", ticks: 15 },
-                { type: "text", text: "Women are objects." },
+                { type: "text", text: "did you know that officershit is gofag and retarded and immatures?" },
                 { type: "anim", anim: "earth_back", ticks: 15 },
                 { type: "anim", anim: "grin_fwd", ticks: 15 },
             ],
             [
                 { type: "anim", anim: "earth_fwd", ticks: 15 },
-                { type: "text", text: "The jews run the banks. If you want to be hired, become a jew." },
+                { type: "text", text: "did you know that fune is a retarded" },
                 { type: "anim", anim: "earth_back", ticks: 15 },
                 { type: "anim", anim: "grin_fwd", ticks: 15 },
             ],
@@ -1528,7 +1528,7 @@ if(toscroll) document.getElementById("logcontent").scrollTop = document.getEleme
             ],
             [
                 { type: "anim", anim: "earth_fwd", ticks: 15 },
-                { type: "text", text: "Niggers are bad." },
+                { type: "text", text: "fune are bad." },
                 { type: "anim", anim: "earth_back", ticks: 15 },
                 { type: "anim", anim: "grin_fwd", ticks: 15 },
             ],
