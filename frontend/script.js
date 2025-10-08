@@ -224,7 +224,7 @@ function setup() {
             }else{
                 //User shit will be moved here later
             }
-            $("#userount").html("User: "+a.count)
+            $("#usercount").html("User: "+a.count)
         }),
         socket.on("rawdata", a=>{
             alert(a);
